@@ -1,0 +1,42 @@
+
+
+.biru {
+	color: #1AFFD6;
+}
+
+
+.breadcrumb-main{
+	position: relative;
+	max-width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+.breadcrumb-main .breadcrumb{
+	background: #101011;
+	border-radius: 100px 100px 0px 0px;
+	display: block;
+}
+.breadcrumb-main .breadcrumb li a{
+	color: #ffffff;
+	font-size: 15px;
+}
+.breadcrumb-main .breadcrumb li{
+	color: #323232;
+	display: inline-block;
+	font-size: 15px;
+}
+.breadcrumb-main .breadcrumb-item + .breadcrumb-item::before{
+	color: #323232;
+}
+.background-tugas {
+	background-color: #212529
+}
+.salmon {
+	color: salmon;
+}
+.yellow {
+	color: yellow;
+}
+.sandybrown {
+	color: sandybrown;
+}

@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*AWAL CSS STYLE KITA NIH*/
+
+body {
+	background-image: url(../images/bg3.jpg);
+	font: 16px/28px arial,vendana;
+	color: #008888;
+}
+
+.main {
+	width: 800px;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+/*HEADER*/
+.header {
+	padding: 20px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+.header a {
+	text-decoration: none; /*Menghilangkan Garis*/
+	color: crimson;
+}
+	
+.header a:hover {
+	background-color: lightskyblue;
+	color: #ffffff;
+	padding: 5px;
+}
+
+/*BANNER*/
+.banner {
+	height: 250px;
+	background-image: url(../images/bg2.jpg);
+	background-size: cover;
+	background-position: 0px -120px;
+	border-top: 3px solid crimson;
+	border-bottom: 3px solid #008888;
+}
+
+
+/*CONTENT*/
+
+.content {
+	padding: 20px;
+}
+
+.content h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.header .penulis {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.content .penulis a {
+	text-decoration: none;
+	color: crimson;
+}
+
+.content .penulis a:hover {
+	background-color: lightskyblue;
+	color: #ffffff;
+}
+
+.content p {
+	margin-bottom: 20px;
+	font-size: 14px;
+	color: black;
+	text-align: justify;
+}
+
+/*FOOTER*/
+
+.footer {
+	background-color: black;
+	padding: 5px;
+}
+
+.footer p {
+	color: #ffffff;
+	text-align: center;
+}
+
+
+
+
